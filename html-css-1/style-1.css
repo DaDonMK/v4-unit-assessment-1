@@ -61,7 +61,7 @@
 .image{
     /* display:inline-block; */
     padding:5px; 
-    height:100px;
+    height:120px;
     float:left;
 }
 .paragraph1{
@@ -115,7 +115,7 @@
 }
 .image2{
     /* display:inline-block;  */
-    padding:20px; 
+    padding:5px; 
     height:120px;
     float:right;
 }
