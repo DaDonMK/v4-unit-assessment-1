@@ -85,7 +85,7 @@ colorCopy.push('yellow')
 */
 
 const numbers = [1, 2, 3, 4, 5]
-middleNums = numbers.slice(1, 3)
+middleNums = numbers.slice(1, 4)
 
 //////////////////PROBLEM 11////////////////////
 /*
@@ -145,11 +145,12 @@ function bigOrSmall(arr){
 
 function arrayReverser(arr){
   let reversed = []
-  for(i = arr.length - 1; i <= 0; i--){
+  for(i = arr.length - 1; i >= 0; i--){
     reversed.push(arr[i])
   }
   return reversed
 }
+console.log(arrayReverser([1,2,3,4,5,6,7]))
 
 //////////////////PROBLEM 14////////////////////
 
