@@ -40,19 +40,11 @@ function addItem(item){
     Then, invoke the displayData() function inside of your removeItem function.
 */
 
-// function removeItem(index){
-  
-//     groceries.slice(index,1)
-        
-// }
-//     displayData()
+
 function removeItem(index){
-    for(i = 0; i < groceries.length; i++){
-        if(i === index){
-            groceries.splice(index, 1)
-        }
-    } 
     
+    groceries.splice(index, 0)
+    return groceries
 }
 
 //////////////////STEP 6////////////////////
